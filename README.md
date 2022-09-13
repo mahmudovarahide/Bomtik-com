@@ -1,2 +1,0 @@
-# Bomtik-com
-Front Desing

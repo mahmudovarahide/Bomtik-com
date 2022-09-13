@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Odometr start-->
+    <!-- <link rel="stylesheet" href="odometer-theme-default.css" /> -->
+    <!--Odometr and-->
+
+    <!--Favicon start-->
+    <link rel="icon" type="image/x-icon" href="assets/image/logo-mobile.png">
+    <!--Favicon and-->
+
+    <!--Font Awasome start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!--Font Awasome and-->
+
+    <!--Bootstrap start-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Bootstrap and-->
+
+    <!--Style css start-->
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <!--Style css and-->
+
+    <title>Instagram Video Downloader</title>
+</head>
+
+<body>
+    <!------------------- Loader start -------------------->
+    <div id="loader">
+        <div class="position-center-center">
+            <div class="loader_animation"></div>
+        </div>
+    </div>
+    <!------------------- Loader and-------------------->
+
+    <!--------------------- Message trip start ---------------------->
+    <!-- <section class="message_trip_section">
+        <div class="container-fluid message_trip">
+            <span class="progress"></span>
+            <span class="message_trip_text">URL is invalid</span>
+            <button class="message_trip_close_button">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </section> -->
+    <!--------------------- Message trip and ---------------------->
+
+    <!-------------------Hedaer start----------------->
+    <header class="header px-3">
+        <nav class="header_nav">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="header_left_box">
+                        <div class="header_open_toggle">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div class="draver">
+                            <span class="overlay"></span>
+                            <div class="draver_content_box">
+                                <div class="draver_close_button_box">
+                                    <button class="draver_close_button"><i class="fas fa-times"></i></button>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center mt-5">
+                                    <div class="draver_logo_box">
+                                        <img class="w-100" src="assets/image/20dbbf6eef-TikTok-Video-Downloader-Download-TikTok-Video-Without-Watermark-HD-TikTok-to-MP4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="driver_title mt-5">
+                                    <p>Pages</p>
+                                </div>
+                                <div class="driver_pages_items mb-5">
+                                    <div class="driver_page_item">
+                                        <a href="howToDownload.html">How To Download</a>
+                                    </div>
+                                    <div class="driver_page_item">
+                                        <a href="">Privacy Policy</a>
+                                    </div>
+                                    <div class="driver_page_item">
+                                        <a href="termsSevices.html">Terms of Services</a>
+                                    </div>
+                                </div>
+                                <div class="driver_footer mt-auto ">
+                                    <hr class="mt-5">
+                                    <p class="text-center">Verssion 5.0.1</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_logo_box">
+                            <a href="index.html" class="d-flex align-items-center">
+                                <img src="assets/image/logo-wide.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header_mobile_logo_box">
+                        <img class="w-100" src="assets/image/logo-mobile.png" alt="">
+                    </div>
+                    <div class="header_right_box">
+                        <a href="#">
+                            <span class="me-1">Support</span>
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-------------------Hedaer and----------------->
+
+    <!-------------------Download Section start----------------->
+    <section class="download_section">
+        <div class="container">
+            <div class="download_section_contents">
+                <div class="download_section_text_contents_box">
+                    <h2 class="download_section_content_head">Download <span class="content_head_strong">Instagram</span> Videos by Url</h2>
+                    <p class="download_section_content_title mt-4">Instagram video Downloader is a fast and free way to download and save Instagram videos as MP4's. Start by putting the Instagram video URL in the box below and click Go.</p>
+                </div>
+                <div class="download_section_input_box mt-4">
+                    <i class="fa-solid fa-magnifying-glass download_section_icon"></i>
+                    <input class="w-100 download_section_input" type="text" placeholder="Enter video url">
+                    <div class="download_action d-flex align-items-center">
+                        <i class="fa-solid fa-copy download_section_copy"></i>
+                        <div class="button_box">
+                            <button type="button">SEARCH</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="download_below_search w-100 mt-5">
+                    <p class="text-center download_below_search_head">By using this service you agree to our
+                        <a href="#">terms.</a>
+                    </p>
+                    <div class="ad_below_search_container">
+                        <div class="ad_below_search">
+                            <p class="text-center"> BELOW SEACRH AD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------Download Section and----------------->
+
+    <!------------------Counter start ------------------>
+    <section class="counter">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="counter_inner_block">
+                <h3>Freemake has users today</h3>
+            </div>
+        </div>
+    </section>
+    <!------------------Counter and ------------------>
+
+    <!------------------- Section Step start----------------->
+    <section class="step mt-5 pb-5">
+        <div class="container">
+            <h1 class="text-center section_step_title">How to Save Instagram Videos</h1>
+            <div class="d-flex justify-content-center">
+                <span class="divider">
+                    <svg width="96" height="7" viewBox="0 0 96 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="20.5" y="0.329163" width="55" height="6" rx="3"></rect>
+                        <rect x="10.748" y="0.329163" width="6" height="6" rx="3"></rect>
+                        <rect x="89.004" y="0.329163" width="6" height="6" rx="3">
+
+                        </rect>
+                        <rect x="0.995972" y="0.329163" width="6" height="6" rx="3"></rect>
+                        <rect x="79.252" y="0.329163" width="6" height="6" rx="3"></rect>
+                    </svg>
+                </span>
+            </div>
+            <div class="above_step_conatiner mt-4 w-100 d-flex justify-content-center align-items-center">
+                <div class="above_step">
+                    <p class="text-center"> Above-steps Ad</p>
+                </div>
+            </div>
+            <div class="steps mt-5 pt-3 mb-3">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="step_box d-flex flex-column justify-content-center align-items-center">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-video"></i>
+                            </div>
+                            <div class="step_contents mt-4">
+                                <h1 class="mb-2">1. Find the Video</h1>
+                                <p>Cick Share of your video and at the Share options, find Copy Link button</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="step_box d-flex flex-column justify-content-center align-items-center">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-copy"></i>
+                            </div>
+                            <div class="step_contents mt-4">
+                                <h1 class="mb-2">1. Find the Video</h1>
+                                <p>Cick Share of your video and at the Share options, find Copy Link button</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="step_box d-flex flex-column justify-content-center align-items-center">
+                            <div class="icon_box">
+                                <i class="fa-solid fa-download"></i>
+                            </div>
+                            <div class="step_contents mt-4">
+                                <h1 class="mb-2">1. Find the Video</h1>
+                                <p>Cick Share of your video and at the Share options, find Copy Link button</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="above_step_conatiner mt-5 w-100 d-flex justify-content-center align-items-center">
+                <div class="above_step">
+                    <p class="text-center"> Below-steps Ad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------- Section Step and----------------->
+
+    <!------------------- How to Question start----------------->
+
+    <section class="how_questions mb-4 py-5">
+        <div class="container">
+            <h1 class="text-center how_questions_title">How to Save Instagram Videos?</h1>
+            <div class="d-flex justify-content-center">
+                <span class="divider">
+                    <svg width="96" height="7" viewBox="0 0 96 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="20.5" y="0.329163" width="55" height="6" rx="3"></rect>
+                        <rect x="10.748" y="0.329163" width="6" height="6" rx="3"></rect>
+                        <rect x="89.004" y="0.329163" width="6" height="6" rx="3">
+
+                        </rect>
+                        <rect x="0.995972" y="0.329163" width="6" height="6" rx="3"></rect>
+                        <rect x="79.252" y="0.329163" width="6" height="6" rx="3"></rect>
+                    </svg>
+                </span>
+            </div>
+            <div class="how_question_conatiner mt-5 mb-5 w-100 d-flex justify-content-center align-items-center">
+                <div class="how_question_boxes">
+                    <p class="text-center"> Below-steps Ad</p>
+                </div>
+            </div>
+            <div class="post_boxes mt-5">
+                <div class="post_box">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis provident magni maiores incidunt laborum sint. Rem veritatis nulla quia culpa quas repudiandae soluta tempora doloremque, inventore nam. Asperiores provident nostrum rem inventore ipsa, laudantium
+                        eos blanditiis illo iste? Rem, voluptates.
+                    </p>
+                </div>
+                <div class="post_box">
+                    <h6>Key features:</h6>
+                    <ul>
+                        <li>No watermark for better quality, which most of the tools out there can't.</li>
+                        <li>No watermark for better quality, which most of the tools out there can't.</li>
+                        <li>No watermark for better quality, which most of the tools out there can't.</li>
+                        <li>No watermark for better quality, which most of the tools out there can't.</li>
+                        <li>No watermark for better quality, which most of the tools out there can't.</li>
+                    </ul>
+                </div>
+                <div class="post_box">
+                    <h6>How to download Instagram Videos without a watermark?</h6>
+                    <ol>
+                        <li>Open the Instagram application on your phone.</li>
+                        <li>Open the Instagram application on your phone.</li>
+                        <li>Open the Instagram application on your phone.</li>
+                        <li>Open the Instagram application on your phone.</li>
+                        <li>Open the Instagram application on your phone.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+                <a class="learn_more_button" href="howToDownload.html">Read More <span class="ms-1"><i
+                            class="fa-solid fa-angle-right"></i></span></a>
+            </div>
+            <div class="how_question_conatiner mt-5 w-100 d-flex justify-content-center align-items-center">
+                <div class="how_question_boxes">
+                    <p class="text-center"> Below-steps Ad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------- How to Question and----------------->
+
+
+    <!------------------- FAQ start----------------->
+    <section class="faq mt-5 mb-5 pb-5">
+        <div class="container">
+            <h1 class="text-center how_questions_title">Frequently Asked Questions</h1>
+            <div class="d-flex justify-content-center">
+                <span class="divider">
+                    <svg width="96" height="7" viewBox="0 0 96 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="20.5" y="0.329163" width="55" height="6" rx="3"></rect>
+                        <rect x="10.748" y="0.329163" width="6" height="6" rx="3"></rect>
+                        <rect x="89.004" y="0.329163" width="6" height="6" rx="3">
+
+                        </rect>
+                        <rect x="0.995972" y="0.329163" width="6" height="6" rx="3"></rect>
+                        <rect x="79.252" y="0.329163" width="6" height="6" rx="3"></rect>
+                    </svg>
+                </span>
+            </div>
+            <div class="above_faq_conatiner mt-5 w-100 d-flex justify-content-center align-items-center">
+                <div class="above_faq">
+                    <p class="text-center"> Below-steps Ad</p>
+                </div>
+            </div>
+            <div class="accordion mt-4" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+                            as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+                            well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+                            as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="above_faq_conatiner mt-5 w-100 d-flex justify-content-center align-items-center">
+                <div class="above_faq">
+                    <p class="text-center">728x90 Banner Ad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------- FAQ AND----------------->
+
+    <!------------------Footer start----------------->
+    <footer class="footer mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer_icon_box d-flex align-items-center">
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer_nav">
+                        <ul class="footer_nav_items d-flex align-items-center">
+                            <li class="footer_nav_item">
+                                <a href="termsSevices.html">Terms of Services</a>
+                            </li>
+                            <li class="footer_nav_item">
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li class="footer_nav_item">
+                                <span>© 2022 Instagram Video Downloader</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!------------------Footer and------------------>
+
+    <!----------------- Search Modal start ------------------>
+    <section class="search_open_modal">
+        <div class="container-fluid">
+            <div class="row flex_column_res">
+                <div class="col-xl-12 col-xxl-8 m-0 p-0">
+                    <div class="viedo_box_serach_modal">
+                        <div class="blur h_100 d-flex justify-content-center align-items-center">
+                            <img class="h_100" src="./assets/image/c21fde89540b4bcf89aec6da53f8adcf.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-xxl-4 m-0 p-0">
+                    <div class="serach_open_modal_box_contents pt-4 ps-4 pe-4">
+                        <div class="profile_box d-flex justify-content-between align-items-center">
+                            <div class="user_details d-flex align-items-center">
+                                <div class="avatar">
+                                    <img class="w-100" src="assets/image/avatar.jpeg" alt="">
+                                </div>
+                                <div class="d-flex flex-column pt-3">
+                                    <div class="user_name">
+                                        <h6 class="mb-0">Rahide_Mahmudova</h6>
+                                    </div>
+                                    <div class="details d-flex gap">
+                                        <div class="user_bio">
+                                            <p>Mennnnn</p>
+                                        </div>
+                                        <div class="date_box">
+                                            <p>1saat evvel</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile_button_box">
+                                <button>
+                                    <a href=""><span>More</span>
+                                        <i class="fas fa-external-link-alt"></i></a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="text_box">
+                            <p>Varol Şair 🖤🚬 #Instagram #keşfet #meyxana #fypシ #twitterwintageシ</p>
+                        </div>
+                        <div class="music_box d-flex justify-content-between">
+                            <div class="d-flex gap">
+                                <div class="icon_box">
+                                    <i class="fas fa-music"></i>
+                                </div>
+                                <b>orijinal ses - Meyxana 🖤👑</b>
+                            </div>
+                            <div class="donload_music_button_box">
+                                <button>
+                                    <i class="fas fa-download"></i>
+                                    <span>Music</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="states d-flex justify-content-between align-items-center mt-3 mb-2">
+                            <div class="state_count d-flex gap">
+                                <div class="likes">
+                                    <i class="far fa-heart"></i>
+                                    <span>235</span>
+                                </div>
+                                <div class="comments">
+                                    <i class="far fa-comment-dots"></i>
+                                    <span>101</span>
+                                </div>
+                                <div class="shares">
+                                    <i class="far fa-eye"></i>
+                                    <span>200K</span>
+                                </div>
+                            </div>
+                            <div class="share_actions d-flex justify-content-between align-items-center">
+                                <div class="share_action_link">
+                                    <button>
+                                        <i class="fas fa-share-alt"></i>
+                                    </button>
+                                </div>
+                                <div class="copy_video_link">
+                                    <button>
+                                        <i class="fas fa-link"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="share_url mb-3">
+                            <div class="prepend_box">
+                                <i class="fas fa-link prepend"></i>
+                            </div>
+                            <form>
+                                <input class="w-100" type="text">
+                            </form>
+                            <div class="copy_box">
+                                <i class="fas fa-copy"></i>
+                            </div>
+                        </div>
+                        <div class="fetch_download_button_box mt-auto">
+                            <button><i class="fas fa-fan me-2"></i> Fetch Download Links</button>
+                        </div>
+                        <div class="button_group gap mt-auto flex_column_buttons">
+                            <a href="" class="original_video_download">
+                                <i class="fas fa-download"></i>
+                                <span>Original</span>
+                            </a>
+                            <button class="watermark_download">
+                                <i class="fas fa-download"></i>
+                                <span>No Watermaark</span>
+                            </button>
+                        </div>
+                        <div class="video_close_button">
+                            <button><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------- Search Modal and ------------------>
+
+    <!--Odometer start-->
+    <!-- <script src="odometer.js"></script> -->
+    <!--Odometer and-->
+
+    <!--Jquery start-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!--------------- Jquery and --------------->
+
+    <!--Bootstrap start-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--Bootstrap and-->
+
+    <!--Main js start-->
+    <script src="assets/js/main.js"></script>
+    <!--Main js and-->
+</body>
+
+</html>

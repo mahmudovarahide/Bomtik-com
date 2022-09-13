@@ -1,0 +1,156 @@
+@media screen and (max-width:1400px) {
+    .search_open_modal {
+        overflow-y: scroll !important;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .flex_column_res {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .search_open_modal {
+        .viedo_box_serach_modal {
+            height: 75vh !important;
+        }
+        .serach_open_modal_box_contents {
+            .fetch_download_button_box {
+                margin-top: 1rem !important;
+            }
+            .profile_box {
+                .profile_button_box {
+                    button {
+                        a {
+                            span {
+                                display: none !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        .header_nav {
+            .header_left_box {
+                .header_logo_box {
+                    display: none !important;
+                }
+            }
+            .header_mobile_logo_box {
+                display: flex !important;
+                width: 2.6rem !important;
+            }
+            .header_right_box {
+                a {
+                    span {
+                        display: none !important;
+                    }
+                }
+            }
+        }
+    }
+    .step {
+        .section_step_title {
+            font-size: 1.7rem !important;
+        }
+    }
+    .how_questions {
+        background-color: $--bacground_gray;
+        .how_questions_title {
+            font-size: 1.7rem !important;
+        }
+        .post_boxes {
+            padding: 0 .8rem !important;
+        }
+        .learn_more_button {
+            padding-right: 3rem !important;
+        }
+    }
+    .footer {
+        background-color: $--dark;
+        color: $--white;
+        height: fit-content;
+        padding: 2rem;
+        .footer_icon_box {
+            justify-content: center !important;
+            padding-bottom: 30px !important;
+            padding-left: 30px !important;
+            i {
+                font-size: 1.7rem !important;
+                &:hover {
+                    color: $--purple;
+                    cursor: pointer;
+                }
+            }
+        }
+        .footer_nav {
+            .footer_nav_items {
+                flex-direction: column !important;
+                .footer_nav_item {
+                    text-align: center;
+                    a {
+                        font-size: 1.2rem !important;
+                        padding-left: 0 !important;
+                        padding-right: 1rem !important;
+                        &:after {
+                            background-color: $--dark !important;
+                        }
+                    }
+                }
+                span {
+                    font-size: 1.5rem !important;
+                }
+            }
+        }
+    }
+    .faq {
+        .above_faq_conatiner {
+            .above_faq {
+                width: 90% !important;
+            }
+        }
+    }
+    .step {
+        .above_step_conatiner {
+            .above_step {
+                width: 90% !important;
+            }
+        }
+    }
+    .download_section {
+        .download_section_contents {
+            .download_below_search {
+                .download_below_search_head {
+                    font-size: 1rem !important;
+                }
+                .ad_below_search_container {
+                    .ad_below_search {
+                        width: 90% !important;
+                    }
+                }
+            }
+        }
+    }
+    .search_open_modal {
+        .serach_open_modal_box_contents {
+            .video_close_button {
+                button {
+                    height: 2.25rem !important;
+                    left: .4rem !important;
+                    top: .7rem !important;
+                    width: 2.25rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .flex_column_buttons {
+        flex-direction: column !important;
+    }
+}
